@@ -38,13 +38,21 @@ body{
     opacity: 0.4;
 }
 
-button{
+button {
     border: 0px;
     border-radius: 20px;
     background-color: #2E2F38;
     font-size: 1.8rem;
     color: white;
-}
+    transition: all 0.15s ease;
+  }
+  
+  button:active {
+    background-color: #1C1D24;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+
 
 .operator{
     background-color: #4B5EFC;
